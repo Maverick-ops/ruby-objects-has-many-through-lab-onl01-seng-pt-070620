@@ -17,7 +17,8 @@ class Genre
   end 
   
   def artists
-    song.collect {|s| s.art
+    song.collect {|s| s.artist}
+  end 
   
 end 
   
