@@ -12,4 +12,7 @@ class Doctor
   def self.all
     @@all
   end 
+  
+  def appointments
+    Appointment.all.select {|s| s.
 end 
