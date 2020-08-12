@@ -18,5 +18,5 @@ class Doctor
   end 
   
   def new_appointment
-    Appointment.new {|a| a.
+    Appointment.new (name, )
 end 
